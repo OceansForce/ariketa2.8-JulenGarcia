@@ -42,29 +42,32 @@ public class Main {
                 System.out.println("Eragiketaren emaitza " + hond + " da.");
         }
     }
-
+    // batuketen azpikodea
     public static float batuketa(float zenbA, float zenbB) {
         float emaitza = 1;
         emaitza = zenbA + zenbB;
         return emaitza;
     }
-
+    // Kenketen azpikodea
     public static float kenketa(float zenbA, float zenbB) {
         float emaitza = 1;
         emaitza = zenbA - zenbB;
         return emaitza;
     }
-
+    // Biderketen azpikodea
     public static float biderketa(float zenbA , float zenbB) {
         float emaitza = 1;
         emaitza= zenbA*zenbB;
         return emaitza;
     }
+
+    // Zatiketen azpikodea
     public static float zatiketa(float zenbA , float zenbB) {
         float emaitza = 1;
         emaitza= zenbA/zenbB;
         return emaitza;
     }
+    // Berreketen azpikodea
     public static double berreketa(double zenbA , double zenbB) {
         double emaitza = 1;
         double ber=0;
@@ -73,6 +76,8 @@ public class Main {
         }
         return emaitza;
     }
+
+    // Hondarren azpikodea
     public static float hondarra(float zenbA , float zenbB) {
         float emaitza = 1;
         emaitza= zenbA%zenbB;

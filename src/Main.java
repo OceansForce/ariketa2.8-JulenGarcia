@@ -60,4 +60,22 @@ public class Main {
         emaitza= zenbA*zenbB;
         return emaitza;
     }
+    public static float zatiketa(float zenbA , float zenbB) {
+        float emaitza = 1;
+        emaitza= zenbA/zenbB;
+        return emaitza;
+    }
+    public static double berreketa(double zenbA , double zenbB) {
+        double emaitza = 1;
+        double ber=0;
+        for(int i=0; i<=zenbB;i++){
+            ber= ber*zenbA;
+        }
+        return emaitza;
+    }
+    public static float hondarra(float zenbA , float zenbB) {
+        float emaitza = 1;
+        emaitza= zenbA%zenbB;
+        return emaitza;
+    }
 }

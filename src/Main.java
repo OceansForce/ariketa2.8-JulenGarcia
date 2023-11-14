@@ -54,4 +54,10 @@ public class Main {
         emaitza = zenbA - zenbB;
         return emaitza;
     }
+
+    public static float biderketa(float zenbA , float zenbB) {
+        float emaitza = 1;
+        emaitza= zenbA*zenbB;
+        return emaitza;
+    }
 }

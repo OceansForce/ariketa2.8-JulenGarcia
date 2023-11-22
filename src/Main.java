@@ -77,7 +77,7 @@ public class Main {
         return emaitza;
     }
 
-    // Hondarren azpikodea
+    // Hondarren azpikodea 12Ariketa
     public static float hondarra(float zenbA , float zenbB) {
         float emaitza = 1;
         emaitza= zenbA%zenbB;
